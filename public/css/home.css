@@ -1,0 +1,209 @@
+@import url('/css/normalize.css');
+@import url('https://fonts.googleapis.com/css?family=Hind:300,400,600&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+img {
+width: 100%;
+
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+  padding-right: 0;
+  padding-left: 0;
+}
+
+#home {
+
+width: 100%;
+
+}
+
+/* BANNER REDES */
+
+#banner-redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: #202020;
+    padding: 75px 0px;
+    position: relative;
+    text-align: center;
+    font-family: 'Hind', sans-serif;
+    font-size: 2em;
+    color: #fff;
+}
+
+#banner-redes:hover {
+    background-color: #5100ba;
+    color: #fff;
+}
+
+#btn-banner {
+
+  color: #fff;
+  padding: 20px;
+
+}
+
+/* BOTONERA WHATSAPP */
+
+#btn-wh {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       background-color: #fff;
+       width: 50px;
+       height: 50px;
+       color: #5100ba;
+       font-size: 2.2em;
+       position:fixed;
+       right:20px;
+       bottom:70px;
+       border-radius:50%;
+       z-index:20;
+       cursor: pointer;
+       text-decoration: none;
+}
+
+/* MAPA DE GOOGLE */
+
+#map {
+        height: 400px;  /* The height is 400 pixels */
+        width: 100%;  /* The width is the width of the web page */
+       }
+
+
+
+ /* FORMULARIO */
+
+       .base-form {
+       padding: 20px;
+
+       }
+
+       .base-inputs {
+       padding: 20px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 100%;
+       }
+
+
+       .contact-form-control {
+
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+       }
+
+       #btn-icon {
+         color: #5100ba;
+         font-size: 2em;
+       }
+
+       #input-sm {
+
+         height: 100px;
+         width: 33%;
+         border: 1px solid #5100ba ;
+         border-radius: 10px;
+         padding: 25px;
+         font-family: 'Hind', sans-serif;
+         font-size: 1em;
+         text-align: left;
+         box-sizing: border-box;
+         display: inline-block;
+
+       }
+
+       #input-md {
+
+         height: 200px;
+         width: 100%;
+         border: 1px solid #5100ba ;
+         border-radius: 10px;
+         padding: 25px;
+         font-family: 'Hind', sans-serif;
+         font-size: 1em;
+         text-align: left;
+
+
+
+       }
+
+       #button-form {
+
+         height: 100px;
+         width: 100%;
+         background-color: #5100ba;
+         border: 1px solid #202020;
+         border-radius: 10px;
+         color: #fff;
+         padding: 25px;
+         font-family: 'Hind', sans-serif;
+         font-size: 1em;
+         text-align: center;
+
+       }
+
+       #button-form:hover {
+
+         background-color: #202020;
+         cursor: pointer;
+       }
+
+       .titulo-contacto {
+
+         font-family: 'Hind', sans-serif;
+         font-weight: 600;
+         font-size: 2em;
+         text-align: center;
+         width: 100%;
+
+       }
+
+       .texto-contacto {
+
+         font-family: 'Hind', sans-serif;
+         font-weight: 300;
+         font-size: 1.2em;
+         text-align: center;
+         width: 100%;
+         padding: 10px;
+
+       }
+
+       .iconos-contacto {
+
+         font-family: 'Hind', sans-serif;
+         font-weight: 300;
+         font-size: 1.2em;
+         text-align: left;
+         width: 600px;
+         margin-left: 80px;
+         color: #5100ba;
+
+       }
+
+       .sucursales-contacto {
+
+         font-family: 'Hind', sans-serif;
+         font-weight: 300;
+         font-size: 1.2em;
+         text-align: left;
+         width: 600px;
+         margin-left: 80px;
+         color: #202020;
+
+       }
