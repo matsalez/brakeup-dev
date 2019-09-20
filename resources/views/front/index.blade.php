@@ -196,9 +196,12 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgbBoiCfWxdnYNyCVc-hquYhT
   <br>
   <div id="formulario" class="base-inputs row no-gutters">
     <div class="col-12">
-      <form class="contact" action="" method="post">
+      <form class="contact" action="{{ url('/') }}" method="post">
+
+        {{ csrf_field() }}
+
         <div class="contact-form-control">
-          <input id="input-sm" type="text" name="nombre" value="NOMBRE">
+          <input id="input-sm" type="text" name="name" value="NOMBRE">
           <br>
           <br>
           <input id="input-sm" type="text" name="telefono" value="TELEFONO">
@@ -208,10 +211,8 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgbBoiCfWxdnYNyCVc-hquYhT
           <br>
 
         </div>
-
         <br>
-        <input id="input-md" type="text" name="mensaje" value="MENSAJE">
-
+        <input id="input-md" type="text" name="msg" value="MENSAJE">
 
         <br>
         <br>

@@ -1,5 +1,9 @@
 <?php
 
+use Illuminate\Http\Request;
+use App\Mail\ContactMail;
+use Illuminate\Support\Facades\Mail;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -15,3 +19,14 @@
 Route::get('/', function () {
     return view('front.index');
 });
+
+Route::get('/contact', function () {
+    return view('front.contact');
+});
+
+// Route::post('/contact', function (Request $request) {
+//   Mail::to('matsalez@gmail.com')->send(new ContactMail($request));
+//   return redirect('/');
+// });
+
+Route::post('/', 'EmailController@contact')->name('contact');
