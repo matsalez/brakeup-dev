@@ -204,7 +204,7 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgbBoiCfWxdnYNyCVc-hquYhT
           <input id="input-sm" type="text" name="name" value="NOMBRE">
           <br>
           <br>
-          <input id="input-sm" type="text" name="telefono" value="TELEFONO">
+          <input id="input-sm" type="text" name="tel" value="TELEFONO">
           <br>
           <br>
           <input id="input-sm" type="email" name="email" value="EMAIL">

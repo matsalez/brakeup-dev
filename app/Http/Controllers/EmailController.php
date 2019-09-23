@@ -11,7 +11,7 @@ class EmailController extends Controller
        $subject = "Asunto del correo";
        $for = "matsalez@gmail.com";
        Mail::send('email',$request->all(), function($msj) use($subject,$for){
-           $msj->from("matsalez@gmail.com","Matias Gonzalez");
+           $msj->from("consultas@brakeup.com.ar","Brake up | Shop");
            $msj->subject($subject);
            $msj->to($for);
        });
