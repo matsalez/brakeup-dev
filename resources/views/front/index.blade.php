@@ -9,7 +9,7 @@
 
 <div class="container-fluid no-gutters ">
   <div class="row no-gutters">
-    <img class="img-home" src="/images/home.jpg" alt="home-brakeup">
+    <img class="img-home" src="/images/home4.jpg" alt="home-brakeup">
   </div>
 </div>
 
