@@ -1,21 +1,29 @@
 <footer id="footer-menu" class="footer">
-
-		<div class="logo">
+	<div id="footer-menu" class="navbar">
+		<div class="">
 			<a id="logo-letras" href="/">
 				BRAKE UP
 			</a>
 		</div>
 
-		<div id="face" class="redes">
-			<a href="http://www.facebook.com/brakeupoficial">
-				<i id="icono-menu"class="fab fa-facebook-square"></i>
-			</a>
+	<div id="sucursales-menu" class="">
+		<div class="link-menu">
+			<a href="#map"><i class="fas fa-map-marker-alt"> CONCORDIA 407</i></a>
 		</div>
 
-		<div id="ig" class="redes">
-			<a  href="http://www.instagram.com/brakeupoficial">
-				<i id="icono-menu" class="fab fa-instagram"></i>
-			</a>
+		<div class="link-menu">
+			<a href="#map"><i class="fas fa-map-marker-alt"> HELGUERA 396</i></a>
+		</div>
+	</div>
+
+		<div id="redes-menu" class="">
+        <div class="link-menu">
+          <a href="#banner-redes"> <i class="fas fa-share-alt"></i> </a>
+        </div>
+
+			  <div class="link-menu">
+          <a href="https://api.whatsapp.com/send?phone=5491130494150&text=Me%20contacto%20para%20realizar%20un%20pedido" target="_blank"><i class="fab fa-whatsapp"></i></a></a>
+        </div>
 		</div>
 
 </footer>

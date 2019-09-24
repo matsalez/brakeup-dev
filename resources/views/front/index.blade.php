@@ -9,19 +9,22 @@
 
 <div class="container-fluid no-gutters ">
   <div class="row no-gutters">
-    <img class="img-home" src="/images/home4.jpg" alt="home-brakeup">
+    <img class="img-home" src="/images/home.jpg" alt="home-brakeup">
   </div>
 </div>
 
 <!-- banner instagram -->
-<div id="banner-redes" class="banner-insta home no-gutters ">
+<div class="banner-insta home no-gutters ">
   <div class="row no-gutters">
-    <div class="col-12">
+    <div id="banner-redes" class="col-12">
+          <div class="">
+            <p> Seguinos en  </p>
+          </div>
+          <div class="">
+          	<a href="/"><i id="btn-banner" class="fab fa-facebook"></i></a>
+          	<a href="/"><i id="btn-banner" class="fab fa-instagram"></i></a>
+          </div>
 
-          <p>Follow us</p>
-        	<a href="https://api.whatsapp.com/send?phone=5491130494150&text=Me%20contacto%20para%20realizar%20un%20pedido" target="_blank"><i id="btn-banner" class="fab fa-whatsapp"></i></a>
-        	<a href="/"><i id="btn-banner" class="fab fa-facebook"></i></a>
-        	<a href="/"><i id="btn-banner" class="fab fa-instagram"></i></a>
 
     </div>
   </div>
@@ -46,7 +49,7 @@
         [
           {elementType: 'geometry', stylers: [{color: '#ebe3cd'}]},
           {elementType: 'labels.text.fill', stylers: [{color: '#523735'}]},
-          {elementType: 'labels.text.stroke', stylers: [{color: '#f5f1e6'}]},
+          {elementType: 'labels.text.stroke', stylers: [{color: '#989898'}]},
           {
             featureType: 'administrative',
             elementType: 'geometry.stroke',
@@ -168,8 +171,15 @@
     });
 
     var image = 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png';
+
        var beachMarker = new google.maps.Marker({
          position: {lat: -34.6277525, lng: -58.4798047},
+         map: map,
+         icon: image
+       });
+
+       var beachMarker = new google.maps.Marker({
+         position: {lat: -32.6277525, lng: -58.4798047},
          map: map,
          icon: image
        });
@@ -186,11 +196,11 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgbBoiCfWxdnYNyCVc-hquYhT
 </script>
 
 <!-- formulario de contacto -->
-<div class="base-form container-fluid no-gutters">
+<div id="form" class="base-form container-fluid no-gutters">
   <div class="base-textos row no-gutters">
     <div class="col-12">
         <h2 class="titulo-contacto">CONTACTO</h2>
-        <p class="texto-contacto">En qué te puedo ayudar? Dejame tu mensaje y estaré respondiendo a la brevedad</p>
+        <p class="texto-contacto">Querés conocer nuestra catálogo mayorista? Dejános un mensaje y te estaremos respondiendo a la brevedad. Recordá que podes escribirnos a través de nuestras redes o haciendo clic en el boton de Whatsapp que se encuentra en el margen derecho de nuestra página...</p>
     </div>
   </div>
   <br>

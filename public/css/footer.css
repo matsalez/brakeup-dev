@@ -6,43 +6,64 @@
     bottom: 0;
     z-index: 15;
     background-color: #202020;
-}
-
-.logo {
     display: flex;
-    align-items: flex-start;
-    height: 20px;
-    width: auto;
-    position: absolute;
-    left: 20px;
-    bottom: : 20px;
-    z-index: 15;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.redes {
-    height: 20px;
-    width: auto;
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    z-index: 15;
+#sucursales-menu  {
+
+
+color: #fff;
+width: auto;
+display: flex;
+align-items: center;
+height: 60px;
+margin-right: 20px;
 
 }
 
-#ig {
-    height: 20px;
-    width: 20px;
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    z-index: 15;
+#sucursales-menu a  {
+
+color: #fff;
+padding: 20px;
+font-size: 1em;
+height: 60px;
+font-family: 'Hind', sans-serif;
+font-weight: 300;
+
 }
 
-#face {
-    height: 20px;
-    width: 20px;
-    position: absolute;
-    right: 70px;
-    top: 20px;
-    z-index: 15;
+#sucursales-menu a:hover  {
+
+color: rgb(142, 142, 142);
+
+}
+
+#redes-menu  {
+
+
+color: #fff;
+width: auto;
+display: flex;
+align-items: center;
+height: 60px;
+margin-right: 20px;
+
+}
+
+#redes-menu a  {
+
+color: #fff;
+padding: 20px;
+font-size: 1.5em;
+height: 60px;
+
+}
+
+#redes-menu a:hover  {
+
+color: rgb(142, 142, 142);
+
+
 }

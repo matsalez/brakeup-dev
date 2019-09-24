@@ -5,9 +5,11 @@
   box-sizing: border-box;
   margin: 0px;
   padding: 0px;
+
 }
 
 img {
+
 width: 100%;
 
 }
@@ -28,13 +30,14 @@ width: 100%;
 /* BANNER REDES */
 
 #banner-redes {
+
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 40px;
     background-color: #202020;
-    padding: 75px 0px;
+    padding: 40px 0px;
     position: relative;
     text-align: center;
     font-family: 'Hind', sans-serif;
@@ -50,7 +53,14 @@ width: 100%;
 #btn-banner {
 
   color: #fff;
-  padding: 20px;
+  padding: 10px;
+
+}
+
+#btn-banner:hover {
+
+  color: rgb(142, 142, 142);
+
 
 }
 
