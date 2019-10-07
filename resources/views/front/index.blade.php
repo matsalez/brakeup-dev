@@ -32,6 +32,18 @@
   </div>
 </div>
 
+<!-- banner instagram -->
+<div class="no-gutters ">
+  <div class="row no-gutters">
+    <div class="col-6">
+        <img id="img-banner" src="/images/home1.jpg" alt="">
+    </div>
+    <div class="col-6">
+        <img id="img-banner" src="/images/home2.jpg" alt="">
+    </div>
+  </div>
+</div>
+
 <!-- boton whatsapp -->
 <div class="btn-whatsapp">
   <a id="btn-wh" href="https://api.whatsapp.com/send?phone=5491130494150&text=Me%20contacto%20para%20realizar%20un%20pedido" target="_blank">

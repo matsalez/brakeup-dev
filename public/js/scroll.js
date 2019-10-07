@@ -1,19 +1,19 @@
 $(document).ready(function() {
     $("#view-map").click(function () {
         $('html,body').animate({
-            scrollTop: 1020
+            scrollTop: 1340
         }, 500);
     });
 
     $("#view-form").click(function () {
         $('html,body').animate({
-            scrollTop: 1420
+            scrollTop: 1730
         }, 500);
     });
 
     $("#view-social").click(function () {
         $('html,body').animate({
-            scrollTop: 935
+            scrollTop: 825
         }, 500);
     });
 
