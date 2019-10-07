@@ -9,6 +9,7 @@
     @include('front.link')
 	</head>
 	<body>
+		
 		@include('front.nav')
 
     @yield('mainContent')

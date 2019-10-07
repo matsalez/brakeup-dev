@@ -1,4 +1,17 @@
 <nav>
+
+  <div id="div-marquee" >
+    <marquee id="txt-marquee" scrolldelay="100" scrollamount="5" direction="left" loop="infinite">
+      <i class="fas fa-tshirt"></i> SOMOS MAYORISTAS
+      <i class="fas fa-heart"></i> WE ARE BRAKE UP
+      - CONOCE NUESTROS LOCALES -
+      <i class="fas fa-map-marker"></i> CONCORDIA 407 -
+      <i class="fas fa-map-marker"></i> HELGUERA 396 -
+      <i class="fas fa-sun"></i> SS2020
+    </marquee>
+  </div>
+
+
   <div id="nav-menu" class="navbar">
 		<div class="">
 			<a id="logo-letras" href="/">
