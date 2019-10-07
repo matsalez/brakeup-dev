@@ -1,7 +1,7 @@
 <footer id="footer-menu" class="footer">
 	<div id="footer-menu" class="navbar">
 		<div class="">
-			<a id="logo-letras" href="/">
+			<a id="logo-footer" href="/">
 				BRAKE UP
 			</a>
 		</div>

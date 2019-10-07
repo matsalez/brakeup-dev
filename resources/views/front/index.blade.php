@@ -6,7 +6,9 @@
 
 
 <!-- foto home -->
-
+<br>
+<br>
+<br>
 <div class="container-fluid no-gutters ">
   <div class="row no-gutters">
     <img class="img-home" src="/images/home.jpg" alt="home-brakeup">
@@ -46,116 +48,122 @@
     // Create a new StyledMapType object, passing it an array of styles,
     // and the name to be displayed on the map type control.
     var styledMapType = new google.maps.StyledMapType(
-        [
-          {elementType: 'geometry', stylers: [{color: '#ebe3cd'}]},
-          {elementType: 'labels.text.fill', stylers: [{color: '#523735'}]},
-          {elementType: 'labels.text.stroke', stylers: [{color: '#989898'}]},
+      [
+  {
+      "featureType": "all",
+      "elementType": "geometry",
+      "stylers": [
           {
-            featureType: 'administrative',
-            elementType: 'geometry.stroke',
-            stylers: [{color: '#c9b2a6'}]
-          },
-          {
-            featureType: 'administrative.land_parcel',
-            elementType: 'geometry.stroke',
-            stylers: [{color: '#8c8c8c'}]
-          },
-          {
-            featureType: 'administrative.land_parcel',
-            elementType: 'labels.text.fill',
-            stylers: [{color: '#70655a'}]
-          },
-          {
-            featureType: 'landscape.natural',
-            elementType: 'geometry',
-            stylers: [{color: '#aaaaaa'}]
-          },
-          {
-            featureType: 'poi',
-            elementType: 'geometry',
-            stylers: [{color: '#dfaedf'}]
-          },
-          {
-            featureType: 'poi',
-            elementType: 'labels.text.fill',
-            stylers: [{color: '#9c928f'}]
-          },
-          {
-            featureType: 'poi.park',
-            elementType: 'geometry.fill',
-            stylers: [{color: '#797e62'}]
-          },
-          {
-            featureType: 'poi.park',
-            elementType: 'labels.text.fill',
-            stylers: [{color: '#788e6f'}]
-          },
-          {
-            featureType: 'road',
-            elementType: 'geometry',
-            stylers: [{color: '#a38da0'}]
-          },
-          {
-            featureType: 'road.arterial',
-            elementType: 'geometry',
-            stylers: [{color: '#f09dfa'}]
-          },
-          {
-            featureType: 'road.highway',
-            elementType: 'geometry',
-            stylers: [{color: '#998d97'}]
-          },
-          {
-            featureType: 'road.highway',
-            elementType: 'geometry.stroke',
-            stylers: [{color: '#998d97'}]
-          },
-          {
-            featureType: 'road.highway.controlled_access',
-            elementType: 'geometry',
-            stylers: [{color: '#998d97'}]
-          },
-          {
-            featureType: 'road.highway.controlled_access',
-            elementType: 'geometry.stroke',
-            stylers: [{color: '#998d97'}]
-          },
-          {
-            featureType: 'road.local',
-            elementType: 'labels.text.fill',
-            stylers: [{color: '#998d97'}]
-          },
-          {
-            featureType: 'transit.line',
-            elementType: 'geometry',
-            stylers: [{color: '#998d97'}]
-          },
-          {
-            featureType: 'transit.line',
-            elementType: 'labels.text.fill',
-            stylers: [{color: '#998d97'}]
-          },
-          {
-            featureType: 'transit.line',
-            elementType: 'labels.text.stroke',
-            stylers: [{color: '#998d97'}]
-          },
-          {
-            featureType: 'transit.station',
-            elementType: 'geometry',
-            stylers: [{color: '#f4cef9'}]
-          },
-          {
-            featureType: 'water',
-            elementType: 'geometry.fill',
-            stylers: [{color: '#998d97'}]
-          },
-          {
-            featureType: 'water',
-            elementType: 'labels.text.fill',
-            stylers: [{color: '#998d97'}]
+              "color": "#9a939b"
           }
-        ],
+      ]
+  },
+  {
+      "featureType": "all",
+      "elementType": "labels.text.fill",
+      "stylers": [
+          {
+              "gamma": 0.01
+          },
+          {
+              "lightness": 20
+          }
+      ]
+  },
+  {
+      "featureType": "all",
+      "elementType": "labels.text.stroke",
+      "stylers": [
+          {
+              "saturation": -31
+          },
+          {
+              "lightness": -33
+          },
+          {
+              "weight": 2
+          },
+          {
+              "gamma": 0.8
+          }
+      ]
+  },
+  {
+      "featureType": "all",
+      "elementType": "labels.icon",
+      "stylers": [
+          {
+              "visibility": "off"
+          }
+      ]
+  },
+  {
+      "featureType": "landscape",
+      "elementType": "geometry",
+      "stylers": [
+          {
+              "lightness": 30
+          },
+          {
+              "saturation": 30
+          }
+      ]
+  },
+  {
+      "featureType": "poi",
+      "elementType": "geometry",
+      "stylers": [
+          {
+              "saturation": 20
+          }
+      ]
+  },
+  {
+      "featureType": "poi.park",
+      "elementType": "geometry",
+      "stylers": [
+          {
+              "lightness": 20
+          },
+          {
+              "saturation": -20
+          }
+      ]
+  },
+  {
+      "featureType": "road",
+      "elementType": "geometry",
+      "stylers": [
+          {
+              "lightness": 10
+          },
+          {
+              "saturation": -30
+          }
+      ]
+  },
+  {
+      "featureType": "road",
+      "elementType": "geometry.stroke",
+      "stylers": [
+          {
+              "saturation": 25
+          },
+          {
+              "lightness": 25
+          }
+      ]
+  },
+  {
+      "featureType": "water",
+      "elementType": "all",
+      "stylers": [
+          {
+              "lightness": -20
+          }
+      ]
+  }
+],
         {name: 'Styled Map'});
 
     // Create a map object, and include the MapTypeId to add
@@ -163,26 +171,30 @@
 
     var map = new google.maps.Map(document.getElementById('map'), {
       center: {lat: -34.6277525, lng: -58.4798047},
-      zoom: 11,
+      zoom: 15,
       mapTypeControlOptions: {
         mapTypeIds: ['roadmap', 'satellite', 'hybrid', 'terrain',
                 'styled_map']
       },
+
     });
 
-    var image = 'https://developers.google.com/maps/documentation/javascript/examples/full/images/beachflag.png';
+    var image = '/images/marker-brakeup.png';
 
-       var beachMarker = new google.maps.Marker({
-         position: {lat: -34.6277525, lng: -58.4798047},
+       var storeMarker = new google.maps.Marker({
+         position: {lat: -34.627371, lng: -58.474321},
          map: map,
-         icon: image
+
        });
 
-       var beachMarker = new google.maps.Marker({
-         position: {lat: -32.6277525, lng: -58.4798047},
+       var storeMarker = new google.maps.Marker({
+         position: {lat: -34.627742, lng:  -58.477668},
          map: map,
-         icon: image
+
        });
+
+
+
 
 
 
@@ -190,6 +202,7 @@
     map.mapTypes.set('styled_map', styledMapType);
     map.setMapTypeId('styled_map');
   }
+
 </script>
 <script async defer
 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgbBoiCfWxdnYNyCVc-hquYhTcc7GVYAg&callback=initMap">
@@ -205,24 +218,24 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgbBoiCfWxdnYNyCVc-hquYhT
   </div>
   <br>
   <div id="formulario" class="base-inputs row no-gutters">
-    <div class="col-12">
+    <div class="col-lg-12">
       <form class="contact" action="{{ url('/') }}" method="post">
 
         {{ csrf_field() }}
 
         <div class="contact-form-control">
-          <input id="input-sm" type="text" name="name" value="NOMBRE">
+          <input id="input-sm" type="text" name="name" value="NOMBRE" onclick="if (this.value=='NOMBRE') this.value='';">
           <br>
           <br>
-          <input id="input-sm" type="text" name="tel" value="TELEFONO">
+          <input id="input-sm" type="text" name="tel" value="TELEFONO" onclick="if (this.value=='TELEFONO') this.value='';">
           <br>
           <br>
-          <input id="input-sm" type="email" name="email" value="EMAIL">
+          <input id="input-sm" type="email" name="email" value="EMAIL" onclick="if (this.value=='EMAIL') this.value='';">
           <br>
 
         </div>
         <br>
-        <input id="input-md" type="text" name="msg" value="MENSAJE">
+        <input id="input-md" type="text" name="msg" value="MENSAJE" onclick="if (this.value=='MENSAJE') this.value='';">
 
         <br>
         <br>
@@ -243,6 +256,7 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgbBoiCfWxdnYNyCVc-hquYhT
 <!-- SCRIPTS -->
 
 <script src="/js/navbar.js"></script>
+<script src="/js/placeholder.js"></script>
 
 
 

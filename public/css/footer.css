@@ -11,6 +11,16 @@
     align-items: center;
 }
 
+#logo-footer {
+  text-decoration: none;
+  color: rgb(255,255,255);
+  display: flex;
+  font-family: 'Hind', sans-serif;
+  font-weight: 600;
+  font-size: 1.5em;
+  margin-left: 20px;
+}
+
 #sucursales-menu  {
 
 
@@ -67,3 +77,49 @@ color: rgb(142, 142, 142);
 
 
 }
+
+@media (max-width: 576px) {
+
+
+#logo-footer {
+  display: none;
+}
+
+#redes-menu  {
+
+display: none;
+
+}
+
+#footer-menu {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+ }
+
+@media (max-width: 768px) {
+
+  #logo-footer {
+    display: none;
+  }
+
+  #redes-menu  {
+
+  display: none;
+
+  }
+
+  #footer-menu {
+
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+
+
+  }

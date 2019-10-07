@@ -23,6 +23,7 @@ width: 100%;
 
 #home {
 
+display: block;
 width: 100%;
 
 }
@@ -30,6 +31,7 @@ width: 100%;
 /* BANNER REDES */
 
 #banner-redes {
+
 
     display: flex;
     justify-content: center;
@@ -194,26 +196,27 @@ width: 100%;
 
        }
 
-       .iconos-contacto {
 
-         font-family: 'Hind', sans-serif;
-         font-weight: 300;
-         font-size: 1.2em;
-         text-align: left;
-         width: 600px;
-         margin-left: 80px;
-         color: #5100ba;
 
-       }
 
-       .sucursales-contacto {
 
-         font-family: 'Hind', sans-serif;
-         font-weight: 300;
-         font-size: 1.2em;
-         text-align: left;
-         width: 600px;
-         margin-left: 80px;
-         color: #202020;
 
-       }
+
+@media (max-width: 576px) {
+
+
+  .contact-form-control {
+
+   width: 100%;
+   display: block;
+
+  }
+
+  #input-sm {
+
+    height: 100px;
+    width: 100%;
+
+  }
+
+ }
