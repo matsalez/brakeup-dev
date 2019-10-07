@@ -35,10 +35,10 @@
 <!-- banner instagram -->
 <div class="no-gutters ">
   <div class="row no-gutters">
-    <div class="col-6">
+    <div class="col-lg-6 col-sm-12">
         <img id="img-banner" src="/images/home1.jpg" alt="">
     </div>
-    <div class="col-6">
+    <div class="col-lg-6 col-sm-12">
         <img id="img-banner" src="/images/home2.jpg" alt="">
     </div>
   </div>
