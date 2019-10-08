@@ -7,4 +7,3 @@
 <link rel="icon" href="/images/fav-brake1.ico">
 <script src="https://code.jquery.com/jquery.js"></script>
 <script src="/js/scroll.js"></script>
-<script src="/js/placeholder.js"></script>

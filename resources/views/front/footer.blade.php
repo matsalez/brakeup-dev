@@ -8,11 +8,11 @@
 
 	<div id="sucursales-menu" class="">
 		<div class="link-menu">
-			<a href="#map"><i class="fas fa-map-marker-alt"> CONCORDIA 407</i></a>
+			<a href="#map"><i class="fas fa-map-marker-alt"></i> CONCORDIA 407</a>
 		</div>
 
 		<div class="link-menu">
-			<a href="#map"><i class="fas fa-map-marker-alt"> HELGUERA 396</i></a>
+			<a href="#map"><i class="fas fa-map-marker-alt"></i> HELGUERA 396</a>
 		</div>
 	</div>
 
