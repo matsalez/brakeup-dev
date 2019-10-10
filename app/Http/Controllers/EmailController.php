@@ -9,7 +9,7 @@ class EmailController extends Controller
 {
   public function contact(Request $request){
        $subject = "Asunto del correo";
-       $for = "administracion@brakeup.com.ar";
+       $for = "matsalez@gmail.com";
        Mail::send('email',$request->all(), function($msj) use($subject,$for){
            $msj->from("consultas@brakeup.com.ar","Brake up | Shop");
            $msj->subject($subject);

@@ -4,6 +4,37 @@
 
 @section('mainContent')
 
+<div id="modal">
+    <div class="modalconent row no-gutters">
+      <div class="col-lg-6">
+        <img class="img-popup" src="/images/img-modal.jpg" alt="home-brakeup">
+      </div>
+
+      <div id="div-form-modal" class="col-lg-6">
+        <div id="form-modal" class="no-gutters" action="" method="post">
+          <h1 class="align-text-center">$500 de regalo en tu primera compra mayorista</h1>
+          <br>
+          <p>Dejá tu email para activar tu cupón y recibir novedades de nuestra colección...</p>
+          <br>
+          <input type="email" name="email" value="" placeholder="Deja tu email aquí" onclick="if (this.placeholder=='NOMBRE') this.placeholder='';">
+          <br>
+          <br>
+          <p>*Válido para compras superiores a $2000. No combinable con otras promociones o descuentos. Ver bases y condiciones aquí.</p>
+          <br>
+          <br>
+          <a id="button-form-modal">ACTIVAR CUPON</a>
+          <br>
+          <br>
+          <br>
+          <br>
+          <a id="button-form-modal-no">NO QUIERO PARTICIPAR</a>
+
+        </div>
+
+      </div>
+        <i id="button-close-modal" class="far fa-times-circle"></i>
+    </div>
+</div>
 
 <!-- foto home -->
 <br>
@@ -269,7 +300,7 @@ src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDgbBoiCfWxdnYNyCVc-hquYhT
 
 <script src="/js/navbar.js"></script>
 <script src="/js/placeholder.js"></script>
-
+<script src="/js/modal.js"></script>
 
 
 @endsection
