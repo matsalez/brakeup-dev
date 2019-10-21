@@ -7,42 +7,33 @@
 <div id="modal">
     <div class="modalconent row no-gutters">
       <div class="col-lg-6">
-        <img class="img-popup" src="/images/img-modal.jpg" alt="home-brakeup">
+        <img class="img-popup" src="/images/img-modal.jpeg" alt="home-brakeup">
       </div>
 
-      <div id="div-form-modal" class="col-lg-6">
-        <div id="form-modal" class="no-gutters" action="" method="post">
-          <h1 class="align-text-center">$500 de regalo en tu primera compra mayorista</h1>
-          <br>
-          <p>Dejá tu email para activar tu cupón y recibir novedades de nuestra colección...</p>
-          <br>
-          <input type="email" name="email" value="" placeholder="Deja tu email aquí" onclick="if (this.placeholder=='NOMBRE') this.placeholder='';">
-          <br>
-          <br>
-          <p>*Válido para compras superiores a $2000. No combinable con otras promociones o descuentos. Ver bases y condiciones aquí.</p>
-          <br>
-          <br>
-          <a id="button-form-modal">ACTIVAR CUPON</a>
-          <br>
-          <br>
-          <br>
-          <br>
-          <a id="button-form-modal-no">NO QUIERO PARTICIPAR</a>
+      <div id="form-modal" class="col-lg-6">
 
-        </div>
+          <h1 class="align-text-center">¡Ahora podés comprar por Whatsapp!
+          <br>
+          <h3>Hace clic en en botón de abajo y recibí todas las novedades de nuestra colección...</h3>
+          <br>
+          <br>
+          <a href="https://api.whatsapp.com/send?phone=5491130494150&text=Me%20contacto%20para%20realizar%20un%20pedido" target="_blank" id="button-form-modal">ENVIAR WHATSAPP <i id="icono-form-modal" class="fab fa-whatsapp"></i></a>
+          <br>
+          <br>
+          <br>
+          <br>
+          <p id="txt-form-modal">¿Querés ser cliente mayorista? Si tu compra supera los $4500 accedes a nuestros precios para mayoristas <i class="fas fa-shopping-cart"></i></p>
 
       </div>
         <i id="button-close-modal" class="far fa-times-circle"></i>
     </div>
 </div>
 
-<!-- foto home -->
-<br>
-<br>
-<br>
+
+<!-- Foto Home -->
 <div class="container-fluid no-gutters ">
   <div class="row no-gutters">
-    <img class="img-home" src="/images/home.jpg" alt="home-brakeup">
+    <img class="img-home" src="/images/home-logo.jpg" alt="home-brakeup">
   </div>
 </div>
 
@@ -63,17 +54,14 @@
   </div>
 </div>
 
-<!-- banner instagram -->
-<div class="no-gutters ">
+<!-- banner imagenes -->
+<div id="banner-img" class="no-gutters ">
   <div class="row no-gutters">
-    <div class="col-lg-6 col-sm-12">
-        <img id="img-banner" src="/images/home1.jpg" alt="">
+    <div class="col-lg-12 col-sm-12">
+        <img id="img-banner" src="/images/home-lila2.jpg" alt="">
     </div>
-    <div class="col-lg-6 col-sm-12">
-        <img id="img-banner" src="/images/home2.jpg" alt="">
-    </div>
-  </div>
-</div>
+
+
 
 <!-- boton whatsapp -->
 <div class="btn-whatsapp">
@@ -92,121 +80,121 @@
     // and the name to be displayed on the map type control.
     var styledMapType = new google.maps.StyledMapType(
       [
-  {
-      "featureType": "all",
-      "elementType": "geometry",
-      "stylers": [
           {
-              "color": "#9a939b"
-          }
-      ]
-  },
-  {
-      "featureType": "all",
-      "elementType": "labels.text.fill",
-      "stylers": [
-          {
-              "gamma": 0.01
+              "featureType": "all",
+              "elementType": "geometry",
+              "stylers": [
+                  {
+                      "color": "#ff3300"
+                  }
+              ]
           },
           {
-              "lightness": 20
-          }
-      ]
-  },
-  {
-      "featureType": "all",
-      "elementType": "labels.text.stroke",
-      "stylers": [
-          {
-              "saturation": -31
+              "featureType": "all",
+              "elementType": "labels.text.fill",
+              "stylers": [
+                  {
+                      "gamma": 0.01
+                  },
+                  {
+                      "lightness": 20
+                  }
+              ]
           },
           {
-              "lightness": -33
+              "featureType": "all",
+              "elementType": "labels.text.stroke",
+              "stylers": [
+                  {
+                      "saturation": -31
+                  },
+                  {
+                      "lightness": -33
+                  },
+                  {
+                      "weight": 2
+                  },
+                  {
+                      "gamma": 0.8
+                  }
+              ]
           },
           {
-              "weight": 2
+              "featureType": "all",
+              "elementType": "labels.icon",
+              "stylers": [
+                  {
+                      "visibility": "off"
+                  }
+              ]
           },
           {
-              "gamma": 0.8
-          }
-      ]
-  },
-  {
-      "featureType": "all",
-      "elementType": "labels.icon",
-      "stylers": [
-          {
-              "visibility": "off"
-          }
-      ]
-  },
-  {
-      "featureType": "landscape",
-      "elementType": "geometry",
-      "stylers": [
-          {
-              "lightness": 30
+              "featureType": "landscape",
+              "elementType": "geometry",
+              "stylers": [
+                  {
+                      "lightness": 30
+                  },
+                  {
+                      "saturation": 30
+                  }
+              ]
           },
           {
-              "saturation": 30
-          }
-      ]
-  },
-  {
-      "featureType": "poi",
-      "elementType": "geometry",
-      "stylers": [
-          {
-              "saturation": 20
-          }
-      ]
-  },
-  {
-      "featureType": "poi.park",
-      "elementType": "geometry",
-      "stylers": [
-          {
-              "lightness": 20
+              "featureType": "poi",
+              "elementType": "geometry",
+              "stylers": [
+                  {
+                      "saturation": 20
+                  }
+              ]
           },
           {
-              "saturation": -20
-          }
-      ]
-  },
-  {
-      "featureType": "road",
-      "elementType": "geometry",
-      "stylers": [
-          {
-              "lightness": 10
+              "featureType": "poi.park",
+              "elementType": "geometry",
+              "stylers": [
+                  {
+                      "lightness": 20
+                  },
+                  {
+                      "saturation": -20
+                  }
+              ]
           },
           {
-              "saturation": -30
-          }
-      ]
-  },
-  {
-      "featureType": "road",
-      "elementType": "geometry.stroke",
-      "stylers": [
-          {
-              "saturation": 25
+              "featureType": "road",
+              "elementType": "geometry",
+              "stylers": [
+                  {
+                      "lightness": 10
+                  },
+                  {
+                      "saturation": -30
+                  }
+              ]
           },
           {
-              "lightness": 25
-          }
-      ]
-  },
-  {
-      "featureType": "water",
-      "elementType": "all",
-      "stylers": [
+              "featureType": "road",
+              "elementType": "geometry.stroke",
+              "stylers": [
+                  {
+                      "saturation": 25
+                  },
+                  {
+                      "lightness": 25
+                  }
+              ]
+          },
           {
-              "lightness": -20
+              "featureType": "water",
+              "elementType": "all",
+              "stylers": [
+                  {
+                      "lightness": -20
+                  }
+              ]
           }
-      ]
-  }
-],
+      ],
         {name: 'Styled Map'});
 
     // Create a map object, and include the MapTypeId to add

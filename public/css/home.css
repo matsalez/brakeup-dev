@@ -14,6 +14,10 @@ width: 100%;
 
 }
 
+.img-home {
+  margin-top: 60px;
+}
+
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -38,8 +42,8 @@ width: 100%;
     left: 50%;
     transform: translate(-50%, -50%);
     background: #fff;
-    width: 80%;
-    height: 500px;
+    width: 60%;
+    height: 450px;
     display: flex;
     justify-content: center;
 
@@ -55,30 +59,36 @@ width: 100%;
   text-align: center;
 }
 
-#div-form-modal {
+#form-modal {
+  width: 100%;
+  height: 500px;
   background-color: rgb(215, 215, 215);
   display: flex;
-  justify-content: center;
-  padding: 10px;
+  justify-content: space-around;
+  text-align: center;
+  flex-direction: column;
+  padding: 50px;
   font-family: 'Hind', sans-serif;
   color: #000000;
-  text-align: center;
+
 }
 
 
-#button-form-modal, #button-form-modal-no {
+#button-form-modal{
   padding: 15px;
-  background-color: #5100ba;
+  background-color: #03a700;
   color: #fff;
   cursor: pointer;
+  font-size: 1.5em;
+  text-decoration: none;
 }
 
-#button-form-modal:hover, #button-form-modal-no:hover {
 
-  background-color: #6a6a6a;
-  color: #fff;
-  cursor: pointer;
+#txt-form-modal {
+font-size: 1.2em;
+
 }
+
 
 #button-close-modal  {
 
@@ -107,7 +117,6 @@ width: 100%;
 
 #banner-redes {
 
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,7 +132,7 @@ width: 100%;
 }
 
 #banner-redes:hover {
-    background-color: #5100ba;
+    background-color: rgb(255, 51, 0);
     color: #fff;
 }
 
@@ -141,9 +150,17 @@ width: 100%;
 
 }
 
+#banner-img {
+
+width: auto;
+height: auto;
+}
+
+
 #img-banner {
 
-height: 100%;
+height: auto;
+width: 100%;
 
 }
 
@@ -155,10 +172,10 @@ height: 100%;
        display: flex;
        align-items: center;
        justify-content: center;
-       background-color: #fff;
+       background-color: #03a700;
        width: 50px;
        height: 50px;
-       color: #5100ba;
+       color: #fff;
        font-size: 2.2em;
        position:fixed;
        right:20px;
@@ -211,7 +228,7 @@ height: 100%;
 
          height: 100px;
          width: 33%;
-         border: 1px solid #5100ba ;
+         border: 1px solid rgb(255, 51, 0);
          border-radius: 10px;
          padding: 25px;
          font-family: 'Hind', sans-serif;
@@ -226,7 +243,7 @@ height: 100%;
 
          height: 200px;
          width: 100%;
-         border: 1px solid #5100ba ;
+         border: 1px solid rgb(255, 51, 0);
          border-radius: 10px;
          padding: 25px;
          font-family: 'Hind', sans-serif;
@@ -241,8 +258,8 @@ height: 100%;
 
          height: 100px;
          width: 100%;
-         background-color: #5100ba;
-         border: 1px solid #202020;
+         background-color: rgb(255, 51, 0);
+         border: 1px solid rgb(108, 108, 108);
          border-radius: 10px;
          color: #fff;
          padding: 25px;
@@ -254,7 +271,7 @@ height: 100%;
 
        #button-form:hover {
 
-         background-color: #202020;
+         background-color: rgb(142, 142, 142);
          cursor: pointer;
        }
 
@@ -283,11 +300,21 @@ height: 100%;
 
 @media (max-width: 576px) {
 
+  .img-home {
+    margin-top: 30px;
+  }
 
   .contact-form-control {
 
    width: 100%;
    display: block;
+
+  }
+
+  #banner-redes {
+
+
+      font-size: 1.5em;
 
   }
 
@@ -297,5 +324,36 @@ height: 100%;
     width: 100%;
 
   }
+
+  .titulo-contacto {
+
+    font-size: 1.6em;
+
+
+  }
+
+  .texto-contacto {
+
+    font-size: 1em;
+
+  }
+
+
+
+ }
+@media (max-width: 720px) {
+
+  .img-home {
+    margin-top: 50px;
+  }
+
+
+ }
+@media (max-width: 375px) {
+
+  .img-home {
+    margin-top: 30px;
+  }
+
 
  }

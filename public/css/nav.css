@@ -12,7 +12,7 @@
 
 #txt-marquee {
 
-  color: #5100ba;
+  color: rgb(255, 51, 0);
   font-family: 'Hind', sans-serif;
   font-weight: 600;
   font-size: 1.2em;
@@ -22,10 +22,6 @@
 
 
 }
-
-
-
-
 
 
 #nav-menu {
@@ -78,6 +74,27 @@ cursor: pointer;
 #secciones-menu a:hover  {
 
 color: rgb(142, 142, 142);
-\
+
 
 }
+
+@media (max-width: 576px) {
+
+
+  #logo-letras {
+
+    font-size: 1.2em;
+
+  }
+
+
+  #secciones-menu a  {
+
+  font-size: 1.2em;
+
+  }
+  #nav-menu  {
+    display: none;
+  }
+
+ }
