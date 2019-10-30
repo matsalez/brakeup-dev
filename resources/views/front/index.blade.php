@@ -4,20 +4,20 @@
 
 @section('mainContent')
 
-<div id="modal">
+<div id="modal" class="modal-windows">
     <div class="modalconent row no-gutters">
-      <div class="col-lg-6">
+      <div class="col-lg-6 col-md-9 col-sm-12">
         <img class="img-popup" src="/images/img-modal.jpeg" alt="home-brakeup">
       </div>
 
-      <div id="form-modal" class="col-lg-6">
+      <div id="form-modal" class="col-lg-6 col-md-9 col-sm-12">
 
           <h1 class="align-text-center">¡Ahora podés comprar por Whatsapp!
           <br>
-          <h3>Hace clic en en botón de abajo y recibí todas las novedades de nuestra colección...</h3>
+          <h3>Hacé clic en el botón de abajo y recibí todas las novedades de nuestra colección</h3>
           <br>
           <br>
-          <a href="https://api.whatsapp.com/send?phone=5491130494150&text=Me%20contacto%20para%20realizar%20un%20pedido" target="_blank" id="button-form-modal">ENVIAR WHATSAPP <i id="icono-form-modal" class="fab fa-whatsapp"></i></a>
+          <a href="https://api.whatsapp.com/send?phone=5491161363608&text=Me%20contacto%20para%20realizar%20un%20pedido" target="_blank" id="button-form-modal">ENVIAR WHATSAPP <i id="icono-form-modal" class="fab fa-whatsapp"></i></a>
           <br>
           <br>
           <br>
@@ -65,7 +65,7 @@
 
 <!-- boton whatsapp -->
 <div class="btn-whatsapp">
-  <a id="btn-wh" href="https://api.whatsapp.com/send?phone=5491130494150&text=Me%20contacto%20para%20realizar%20un%20pedido" target="_blank">
+  <a id="btn-wh" href="https://api.whatsapp.com/send?phone=5491161363608&text=Me%20contacto%20para%20realizar%20un%20pedido" target="_blank">
     <i class="fab fa-whatsapp"></i>
   </a>
 </div>

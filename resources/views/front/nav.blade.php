@@ -10,7 +10,6 @@
     </marquee>
   </div>
 
-VENTAS POR MAYOR -  CONCORDIA 407 - HELGUERA 396  COMPRA MINIMA PARA ENVIOS $4500.-
   <div id="nav-menu" class="navbar">
 		<div class="">
 			<a id="logo-letras" href="/">
@@ -26,7 +25,7 @@ VENTAS POR MAYOR -  CONCORDIA 407 - HELGUERA 396  COMPRA MINIMA PARA ENVIOS $450
           <a><i class="fas fa-map-marker-alt"></i></a>
         </div>
         <div class="link-menu">
-          <a href="https://api.whatsapp.com/send?phone=5491130494150&text=Me%20contacto%20para%20realizar%20un%20pedido" target="_blank"><i class="fab fa-whatsapp"></i></a></a>
+          <a href="https://api.whatsapp.com/send?phone=5491161363608&text=Me%20contacto%20para%20realizar%20un%20pedido" target="_blank"><i class="fab fa-whatsapp"></i></a></a>
         </div>
         <div id="view-form" class="link-menu">
           <a ><i class="far fa-envelope"></i></i> </a>
